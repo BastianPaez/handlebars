@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{> navbar}}
+    
+    <main class="container mt-5">
+
+    {{{body}}}
+    </main>
+    
+    {{> footer
+     text="este es el footer 2.0"
+     year=2024
+     }}
+
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>
